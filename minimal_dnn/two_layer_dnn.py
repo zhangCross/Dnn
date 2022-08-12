@@ -152,6 +152,6 @@ def plot_decision_boundary(pred_func, X, y, title):
 
 if __name__ == '__main__':
     X, y = generate_data()
-    demo_softmax(X, y)
+    # demo_softmax(X, y)
     demo_dnn(X, y)
 
